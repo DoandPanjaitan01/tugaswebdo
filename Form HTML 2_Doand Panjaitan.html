@@ -1,0 +1,70 @@
+<html> 
+    <head> 
+        <body>
+            <title>Lomba 17 Kemerdekaan RI (Dolok Nagodang)</title>
+            <link rel="stylesheet" type="text/css" href="dolostyle.css">
+            <h2><p align="center" </h2>
+            <img src="hari ri.jpg" align="center" style="width: 500px; height: 400px;" >
+            <h2>Dalam rangka perayaan kemerdekaan RI yang ke 76, Dusun VII Dolok Nagodang mengadakan perlombaan antara lain:</h2>
+            <table>
+                <tr>
+                    <td>No</td>
+                    <td>Nama Perlombaan</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Balap Karung</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Lari Bawa Guli</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Vocal Solo</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Masukkan paku dalam Botol</td>
+                </tr>
+            </table>
+            <h4>Persyaratan:
+            <ul>
+                <li>Sehat jasmanai dan Rohani</li>
+                <li>Harus WNI (Warga Negara Indonesia)</li>
+                <li>Peserta hanya bisa mengikuti satu jenis perlombaan</li>
+                <li>Dilarang berprilaku buruk selama perlombaan</li>
+            </ul>
+            </h4>
+            <!--a href=""-->
+            <fieldset>
+                <legend>Formulir Pendaftaran</legend>
+                <form action="submit.php" method="POST">
+                    <p>Name: <input type="text" name="name" required/></p>
+                    <p>Password: <input type="password" name="apa" required /></p>
+	                <p>Gender: 
+                        <br><input type="radio" name="Gender" value="pria"> Laki-laki
+                        <br><input type="radio" name="Gender" value="wanita"> Perempuan</p> 
+                    <p><label>Tanggal Lahir:
+                        <input type="date" name="Tanggal">
+                    </label>
+                    </p>
+ 	                <p><label>Jenis Perlombaan:</label>
+                        <select name="lomba">
+                            <option value="karung">Balap Karung</option>
+                            <option value="guli">Lari bawa guli</option>
+                            <option value="vocal">Vocal Solo</option>
+                            <option value="paku">Masukkan Paku dalam Botol</option>
+                        </select>
+                    </p>
+	                <p>Addres:<input type="text" name="addres" required/></p>
+	                <p>E-mail:<input type="email" name="email" required/></p>
+	                <p>Photo:<input type="file" name="photo"  required/><br/></p>
+	                <p><label>Motivasi:</label><textarea></textarea>
+                    <input type="submit" name="submit" value="Daftar" /></p>
+                    <h3><p align="center">Tetap Semangat,, Pantang Menyerah "MERDEKA!!!!"</p></h3>
+                </form>
+            </fieldset>
+        </body>
+    </head>
+</html>
